@@ -1,5 +1,5 @@
 package com.fabioperettig.myMusic.Models;
-import com.fabioperettig.myMusic.Main.*;
+import com.fabioperettig.myMusic.Main.Audio;
 
 public class Music extends Audio{
 

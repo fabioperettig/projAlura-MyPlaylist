@@ -1,7 +1,7 @@
 package com.fabioperettig.myMusic.Models;
-import com.fabioperettig.myMusic.Main.*;
+import com.fabioperettig.myMusic.Main.Audio;
 
-public class Podcast extends Audio{
+public class Podcast extends Audio {
 
     private String host;
     private String abstr;

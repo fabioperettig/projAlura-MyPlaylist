@@ -60,12 +60,18 @@ public abstract class Audio implements Methos {
     @Override
     public void averageRate(){
         if (this.numPlays == 0) {
-            System.out.println("Rating: 0.0");
+            System.out.println("Rating: 0 stars");
             return;
         }
 
         rating = (double) this.numLike/this.numPlays;
         System.out.printf("Rating: %.2f%n", rating);
+        if (rating >= .8) { System.out.println("5 stars"); }
+        else if (rating >= .6) { System.out.println("4 stars"); }
+        else if (rating >= .4) { System.out.println("3 stars"); }
+        else if (rating >= .2) { System.out.println("2 stars"); }
+        else { System.out.println("1 stars"); }
+
     }
 
 }
